@@ -51,5 +51,5 @@ jobs:
         with:
           app-name: 'r9testcricket'
           slot-name: 'Production'
-          package: .
+          package: build/
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_36BB75B9521E4D60976AF3914702A9AB }}
